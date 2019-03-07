@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>OC和JS交互</title>
+
+    <style type="text/css">
+
+        .superView{
+            text-align: center;
+            margin-top: 50px;
+        }
+    
+        .btn{
+            font-size: 30px;
+        
+            height: 100px;
+            width: 200px;
+        }
+
+    </style>
+
+    <script type="application/javascript">
+
+        //js调OC的方法
+        function jsToOc()
+        {
+            //jsSendOcWithPrams是要在OC那边注册才可以的。
+           window.webkit.messageHandlers.jsSendOcWithPrams.postMessage({"oneParam":"传过去的参数内容"});
+        }
+
+
+        //提供给oc调用的方法
+        function ocToJs()
+        {
+            //随机改变页面的背景色
+            var r=Math.floor(Math.random()*256);
+            var g=Math.floor(Math.random()*256);
+            var b=Math.floor(Math.random()*256);
+            var randomColor = "rgb("+r+','+g+','+b+")";
+            
+            document.body.style.backgroundColor = randomColor;
+        }
+    </script>
+
+</head>
+<body>
+
+<div class="superView">
+
+    <button onclick="jsToOc()" class="btn">js调用OC的方法</button>
+
+</div>
+
+
+
+</body>
+</html>
