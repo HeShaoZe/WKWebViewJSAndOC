@@ -16,6 +16,7 @@
 		436DEDD82230248D0048B1A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 436DEDD72230248D0048B1A6 /* main.m */; };
 		436DEDE22230248D0048B1A6 /* WKWebViewJSAndOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 436DEDE12230248D0048B1A6 /* WKWebViewJSAndOCTests.m */; };
 		436DEDED2230248D0048B1A6 /* WKWebViewJSAndOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 436DEDEC2230248D0048B1A6 /* WKWebViewJSAndOCUITests.m */; };
+		43CD6B95225E47F900943E71 /* SCDCredPointsHeaderPropressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CD6B94225E47F800943E71 /* SCDCredPointsHeaderPropressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		436DEDE82230248D0048B1A6 /* WKWebViewJSAndOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebViewJSAndOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		436DEDEC2230248D0048B1A6 /* WKWebViewJSAndOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJSAndOCUITests.m; sourceTree = "<group>"; };
 		436DEDEE2230248D0048B1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43CD6B93225E47F700943E71 /* SCDCredPointsHeaderPropressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDCredPointsHeaderPropressView.h; sourceTree = "<group>"; };
+		43CD6B94225E47F800943E71 /* SCDCredPointsHeaderPropressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCDCredPointsHeaderPropressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				436DEDC9223024820048B1A6 /* AppDelegate.m */,
 				436DEDCB223024820048B1A6 /* ViewController.h */,
 				436DEDCC223024820048B1A6 /* ViewController.m */,
+				43CD6B93225E47F700943E71 /* SCDCredPointsHeaderPropressView.h */,
+				43CD6B94225E47F800943E71 /* SCDCredPointsHeaderPropressView.m */,
 				436DEDCE223024820048B1A6 /* Main.storyboard */,
 				436DEDD12230248D0048B1A6 /* Assets.xcassets */,
 				436DEDD32230248D0048B1A6 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				436DEDCD223024820048B1A6 /* ViewController.m in Sources */,
+				43CD6B95225E47F900943E71 /* SCDCredPointsHeaderPropressView.m in Sources */,
 				436DEDD82230248D0048B1A6 /* main.m in Sources */,
 				436DEDCA223024820048B1A6 /* AppDelegate.m in Sources */,
 			);
